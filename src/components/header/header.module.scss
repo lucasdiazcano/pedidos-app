@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  width: 100%;
+  padding: 14px 24px;
+
+  .logo {
+    height: 24px;
+  }
+
+  .nav {
+
+    .links {
+        display: flex;
+
+      .link {
+        margin: 0 12px;
+        font-weight: 600;
+      }
+
+      .link_active {
+          color: rgb(238, 71, 71)
+      }
+    }
+  }
+
+  .user {
+    display: flex;
+    .avatar {
+
+    }
+
+    .name {
+
+    }
+  }
+}
